@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convector</title>
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <div class="icon"><a href="#"><img id="wheel" src="./gear.png"></a></div>
+    <div class="cover-input">
+        <div class="inputs">
+
+            <input type="number" id="value" placeholder="Write value to convert" required >
+        </div>
+        <div class="inputs">
+            <input id="result" placeholder="Result" disabled>
+        </div>
+    </div>
+    <div class="select-cover">
+        <div class="selectors">
+            <select id="select">
+                <option selected="selected">meters</option>
+                <option>verset</option>
+                <option>yard</option>
+                <option>miles</option>
+                <option>foot</option>
+            </select>
+        </div>
+        <div class="selectors">
+            <select id="select2">
+                <option selected="selected">meters</option>
+                <option >verset</option>
+                <option>yard</option>
+                <option>miles</option>
+                <option>foot</option>
+            </select>
+        </div>
+    </div>
+    <div class="convert-button-coverage">
+        <div class="div-button">
+            <button class="btn" id="generate"> Generate</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="hidden-window hidden" id="hidden">
+    <div class="settings-wrap">
+
+        <h2 id="h2">Settings</h2>
+        <!-- <a href="#"><img src="../src/style/img/icons8-close-window-50.png"></a> -->
+    </div>
+    <div class="select-wrap">
+        <p id = "p">Language</p>
+        <select id="lang">
+            <option selected="selected">EN</option>
+            <option >RU</option>
+            <option>AR</option>
+        </select>
+    </div>
+    <div>
+        <button class="btn" id="apply">Apply</button>
+    </div>
+</div>
+
+</body>
+<script src="./index.js"></script>
+</html>

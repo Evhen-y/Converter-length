@@ -1,0 +1,98 @@
+input:focus {
+    background-color: lightblue;
+}
+input::placeholder {
+    color: pink;
+}
+.hidden {
+    display: none!important;
+}
+.direction {
+    direction: rtl;
+}
+.wrapper {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to bottom, #330758, #690063, #9b0064, #c9005d, #ef114d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper .icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 70%;
+    margin-top: 1%;
+}
+.wrapper .icon a img {
+    width: 100%;
+}
+.wrapper .cover-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+.wrapper .cover-input .inputs {
+    width: 50%;
+    padding-right: 15px;
+}
+.wrapper .cover-input .inputs input {
+    width: 100%;
+    padding: 7px 3px 7px 5px;
+    color: pink;
+    border-radius: 5px;
+    background: #0078c9;
+    opacity: 0.7;
+    border: 1px solid;
+}
+.wrapper .select-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+.wrapper .select-cover .selectors {
+    width: 50%;
+    padding-right: 5px;
+}
+.wrapper .select-cover .selectors select {
+    width: 100%;
+    padding: 7px 3px 7px 5px;
+    border-radius: 5px;
+    background: #0078c9;
+    opacity: 0.7;
+    border: 1px solid;
+    border: 6px solid transparent;
+    color: pink;
+}
+.hidden-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20%;
+    top: 25%;
+    background-image: linear-gradient(to right top, #60123e, #641c51, #632765, #5d347a, #50418e, #414f9c, #2c5da7, #006ab0, #0079b2, #0086ab, #0092a0, #1c9b93);
+    padding: 10px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+.hidden-window .settings-wrap {
+    display: flex;
+}
+.hidden-window .settings-wrap a {
+    width: 30px;
+    height: 30px;
+}
+.hidden-window .settings-wrap a img {
+    width: 100%;
+}
+.hidden-window .select-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
